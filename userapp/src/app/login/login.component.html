@@ -1,0 +1,36 @@
+<body style="margin:0">
+    <div  class="container">
+       <div class="heading">
+         User App
+       </div>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" style="padding-top: 18px;">
+       <div class="row">
+        <div class="col subheading" > 
+          Username  
+        </div>
+      </div>
+       <div class="row">
+        <div class="col username_form">
+          <input formControlName="username" type="text" class="login_form"  name="phone_number">  
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col password">
+         Password
+        </div> 
+      </div>
+      <div class="row password_form">
+        <input formControlName="password" type="password" class="login_form" >
+      </div>
+      <div class="error">
+        {{error_message}}
+      </div>
+      <div class="row" style="text-align: center;">
+        <div class="col login"  >
+          <button class="login_button" *ngIf="!registerForm.invalid">Login</button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>

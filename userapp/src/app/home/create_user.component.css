@@ -1,0 +1,28 @@
+.user_details{
+    border-radius: 6pt;
+    border: 1px solid;
+    height: 30px;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+.submit{
+    border-radius: 17pt;
+   height: 32pt;
+   width: 160pt;
+   font-size: large;
+   margin-left: 40%;
+    margin-top: 20%;
+}
+.subheading{
+    padding-left: 30px;
+    font-size: 12pt;
+    font-weight: 700;
+}
+.user_form{
+    padding-top: 18px; 
+        padding-top: 18px;
+    background: lightblue;
+    border-radius: 10pt;
+    height: 100vh;
+}

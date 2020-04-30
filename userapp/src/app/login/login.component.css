@@ -1,0 +1,50 @@
+.heading{
+    text-align: center;
+       font-size: 32px;
+       padding-top: 24%;
+       color: #505050;
+}
+.subheading{
+    padding-left: 30px;
+    font-size: 12pt;
+    color: #838383;
+}
+.login_form{
+    border-radius:6pt;
+    border: none;
+    height: 34pt;
+    cursor: pointer;
+    width: 92%;
+}
+.password{
+    padding-left: 29px;
+        padding-top: 18px;
+        color: #6C6C6C;
+}
+.error{
+    padding-left: 27px;
+      padding-top: 10px;
+      color: red;
+}
+.login{
+    background: #A8D5BAFF;
+          border-radius: 17pt;
+          height: 32pt;
+          width: 160pt;font-size: large;
+          padding-top: 19px;
+          padding-bottom: 15px;
+          margin-left: 30%;
+}
+.container{
+    background: #ADD8E6;
+    height: 100vh;
+}
+.login_button{
+    font-size: larger;
+}
+.username_form{
+    padding-left: 24px;
+}
+.password_form{
+    padding-left: 26px;
+}

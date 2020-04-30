@@ -1,0 +1,27 @@
+<customer-list *ngIf=!show></customer-list>
+<div style="width:100vh">
+    <div  class="search" >
+       <input  id="searchbar" (input)="search()" type="text" name="search" placeholder="Search here.."> 
+    </div>
+    <div class="add_button" >
+        <button class="new_user" (click)="add($event)">Add User</button>
+    </div>
+    <div class="list_users"  *ngFor="let details of detail">
+      <div  style="font-size: large;" class="users">
+        <table>
+            <tr>
+                <td>
+                    <img src="{{details.user.picture.medium}}" class="profile_pic">
+                </td>
+                <td>
+                    <div  class="name" class="details" >{{details.user.name.title}} &nbsp;{{details.user.name.first}} &nbsp;{{details.user.name.last}}
+                    </div>
+                    <div class="row">{{details.user.gender}}, &nbsp;{{details.user.dob}}
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+</div>

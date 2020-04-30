@@ -1,0 +1,58 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()"  class="user_form">
+<table style="width: 100vw;">
+    <tr class="subheading" >
+       Name
+    </tr>
+    <tr>
+     <td>
+    <input formControlName="title" type="text" class="user_details"   placeholder="Title" name="title"  > 
+    </td>
+    <td>
+     <input formControlName="first" type="text" class="user_details"  placeholder="First Name" name="first"  >  
+    </td>
+    <td>
+    <input formControlName="last" type="text" class="user_details" placeholder="Last Name" name="last"  >  
+    </td>
+    </tr>
+
+    <tr  class="subheading" >
+    Gender
+    </tr>
+    <tr>
+    <input formControlName="Gender" type="text" class="user_details"  placeholder="Gender" name="title"  > 
+    </tr>
+    <tr class="subheading" >
+     Date of Birth
+    </tr>
+    <tr>
+        <input formControlName="date" type="text" class="user_details"  placeholder="DOB" name="DOB"  > 
+    </tr>
+    <tr class="subheading" >
+     Email ID
+    </tr>
+    <tr>
+    <input formControlName="id" type="text" class="user_details"  placeholder="Email ID" name="title"  > 
+    </tr>
+
+    <tr class="subheading" >
+        Phone Number
+     </tr>
+     <tr>
+        <input formControlName="phonenumber" type="text" class="user_details"  placeholder="Phone Number" name="title"  > 
+     </tr>
+     <tr class="subheading" >
+        User name
+     </tr>
+     <tr>
+        <input formControlName="username" type="text" class="user_details" placeholder="user name" name="title"  > 
+     </tr>
+     <tr class="subheading" >
+        Password
+     </tr>
+     <tr>
+        <input formControlName="password" type="text" class="user_details"  placeholder="passwrod" name="title"  > 
+     </tr>
+</table>
+<button class="submit">Submit</button>
+
+</form>
